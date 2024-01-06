@@ -5,7 +5,7 @@ import Creators from './creator/pages/creators';
 import MainNavigation from '../shared/components/MainNavigation';
 import Homepage from './homepage/pages/Homepage';
  
-import './App.css'
+import './index.css'
 const App = () => {
 
   return (
@@ -16,7 +16,8 @@ const App = () => {
       <Route path="/" exact><Homepage></Homepage></Route>
       <Route path="/community" exact><Creators /></Route>
       <Route path="/posts/new" exact><NewPost/></Route>
-      <Redirect to="/"/>
+      
+      <Redirect to="/" />
       </Switch>
       </main>
     </Router>
