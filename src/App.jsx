@@ -1,6 +1,6 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
-import NewPost from './posts/pages/newPost';
+// import NewPost from './posts/pages/newPost';
 import Creators from './creator/pages/creators';
 import MainNavigation from '../shared/components/MainNavigation';
 import Homepage from './homepage/pages/Homepage';
