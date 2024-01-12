@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const CreatorsItem = (props) => {
   return (
+  <Link to={`/${props.id}/posts`}>
     <div className="flex justify-center">
       <li className="bg-black rounded-lg shadow-md p-4 my-4 flex items-center">
         {/* Profile Image */}
@@ -20,6 +22,7 @@ const CreatorsItem = (props) => {
         </div>
       </li>
     </div>
+        </Link>
   );
 };
 

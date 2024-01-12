@@ -15,11 +15,13 @@ const MainNavigation = (props) => {
     <div className="bg-white">
       <nav className="flex justify-between items-center w-[92%] mx-auto">
         <div>
+          <NavLink to="/">
           <img
             className="w-20 cursor-pointer"
             src="../../public/logo.png"
             alt="Logo"
           />
+          </NavLink>
         </div>
         <div
           className={`nav-links md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 ${
